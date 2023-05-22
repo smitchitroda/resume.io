@@ -1,0 +1,85 @@
+@media screen and (max-width: 1102px){
+    .bOx::before{
+        inset: -10px 60px;
+    }
+}
+
+@media screen and (max-width: 1102px){
+    .bOx{
+        height: 26vh;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .bOx::before{
+        inset: -10px 40px;
+    }
+    .bOx{
+        height: 23vh;
+    }
+    .cOntent{
+        border: 3px solid rgba(0,0,0,.8);
+    }
+    .bOx::after{
+        inset: 3px;
+    }
+    .image .name h2, .box h1{
+        font-size: 1.3rem;
+    }
+    .image .name p{
+        font-size: .8rem;
+    }
+    .skill p{
+        font-size: 1rem;
+    }
+    .skill ul li, .education .boxes .b p, .box p, .activity ul li{
+        font-size: .9rem;
+    }
+    .b h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .bOx{
+        width: 17vw;
+    }
+    .cOntent{
+        inset: 16px;
+    }
+    .education .boxes .b1 p{
+        transform: translateY(800%);
+    }
+}
+
+@media screen and (max-width: 700px){
+    .bOx{
+        height: 21vh;
+    }
+    .box{
+        padding: 0 4%;
+    }
+    .pd p{
+        line-height: 13px;
+    }
+    .boxes{
+        flex-direction: column;
+    }    
+    .education .boxes .b h2{
+        font-size: 1rem;
+    }
+    .education .boxes .b h2, .education .boxes .b p{
+        transform: translateY(0%);
+        text-align: center;
+        line-height: 13px;
+    }
+    .education .boxes .b:hover hr {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .bOx{
+        width: 21vh;
+    }   
+}
